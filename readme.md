@@ -12,7 +12,7 @@ document.getElementsByClassName('section')
 
 // create element
 const a = document.createElement('a');
-document.body.appendChild('a');
+document.body.appendChild(a);
 // Or
 const a1 = document.createElement('a')
 document.body.append(a, a1);
